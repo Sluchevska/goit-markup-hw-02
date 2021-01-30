@@ -1,0 +1,26 @@
+:root {
+  --primary-text-color: #212121;
+  --text-color: #757575;
+  --hero-color: #ffffff;
+  --accent-color: #2196f3;
+}
+body {
+  background-color: var(--hero-color);
+  color: var(--primary-text-color);
+}
+
+.logo {
+  color: var(--accent-color);
+}
+.head-kont {
+  color: inherit;
+}
+
+.current:hover {
+  color: var(--accent-color);
+}
+
+.hero {
+  background-color: #2f303a;
+  color: var(--hero-color);
+}
