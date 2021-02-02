@@ -4,23 +4,107 @@
   --hero-color: #ffffff;
   --accent-color: #2196f3;
 }
+
 body {
   background-color: var(--hero-color);
   color: var(--primary-text-color);
 }
 
+/*Header*/
 .logo {
   color: var(--accent-color);
 }
-.head-kont {
-  color: inherit;
+
+.site-nav .link {
+  color: var(--primary-text-color);
 }
 
-.current:hover {
+.list {
+  list-style: none;
+}
+
+.site-nav .current:hover,
+.site-nav .current:focus {
   color: var(--accent-color);
 }
 
+.auth-nav .link {
+  color: var(--text-color);
+}
+
+.auth-nav .email:hover,
+.auth-nav .email:focus {
+  color: var(--accent-color);
+}
+
+/*Hero*/
 .hero {
   background-color: #2f303a;
   color: var(--hero-color);
+}
+
+.primary-btn {
+  background-color: var(--accent-color);
+  color: var(--hero-color);
+}
+
+/*Advantages*/
+.advantages {
+  color: var(--primary-text-color);
+}
+
+.adv-text {
+  color: var(--text-color);
+}
+
+/*What We Do*/
+.whatwedo {
+  color: var(--primary-text-color);
+}
+
+/*Our Team*/
+.ourteam-section {
+  background-color: #f5f4fa;
+}
+
+.ourteam {
+  color: var(--primary-text-color);
+}
+
+.ourteam-lead {
+  color: var(--primary-text-color);
+}
+
+.ourteam-position {
+  color: var(--text-color);
+}
+
+/*Footer*/
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-studio {
+  color: var(--hero-color);
+}
+
+.post-address,
+.email-address,
+.tel-address {
+  color: var(--hero-color);
+}
+
+/*Portfolio buttons*/
+.portf-btn:hover,
+.portf-btn:focus {
+  background-color: var(--accent-color);
+}
+
+/*Portfolio main*/
+.portf-text {
+  color: var(--text-color);
+}
+
+.portf-project {
+  color: var(--primary-text-color);
 }
