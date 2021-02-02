@@ -8,11 +8,17 @@
 body {
   background-color: var(--hero-color);
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
 }
 
 /*Header*/
 .logo {
   color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+}
+
+.logotwo {
+  color: var(--primary-text-color);
 }
 
 .site-nav .link {
@@ -98,6 +104,7 @@ body {
 .portf-btn:hover,
 .portf-btn:focus {
   background-color: var(--accent-color);
+  color: var(--hero-color);
 }
 
 /*Portfolio main*/
