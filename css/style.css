@@ -14,15 +14,26 @@ body {
 /*Header*/
 .logo {
   color: var(--accent-color);
-  font-family: Raleway, sans-serif;
 }
 
 .logotwo {
   color: var(--primary-text-color);
 }
 
+.full-logo {
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
 .site-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
 }
 
 .list {
@@ -36,6 +47,10 @@ body {
 
 .auth-nav .link {
   color: var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  text-decoration: none;
 }
 
 .auth-nav .email:hover,
@@ -49,23 +64,47 @@ body {
   color: var(--hero-color);
 }
 
+.hero-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .primary-btn {
   background-color: var(--accent-color);
   color: var(--hero-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  text-decoration: none;
 }
 
 /*Advantages*/
 .advantages {
   color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .adv-text {
   color: var(--text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 /*What We Do*/
 .whatwedo {
   color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2.63;
+  text-align: center;
 }
 
 /*Our Team*/
@@ -75,14 +114,24 @@ body {
 
 .ourteam {
   color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2.63;
+  text-align: center;
 }
 
 .ourteam-lead {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 .ourteam-position {
   color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 /*Footer*/
@@ -98,6 +147,9 @@ body {
 .email-address,
 .tel-address {
   color: var(--hero-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 /*Portfolio buttons*/
@@ -105,13 +157,24 @@ body {
 .portf-btn:focus {
   background-color: var(--accent-color);
   color: var(--hero-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
 }
 
 /*Portfolio main*/
-.portf-text {
-  color: var(--text-color);
-}
 
 .portf-project {
   color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.portf-text {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
 }
