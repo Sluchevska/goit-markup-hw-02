@@ -26,6 +26,7 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .site-nav .link {
@@ -34,6 +35,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
+  letter-spacing: 0.02em;
 }
 
 .list {
@@ -51,6 +53,7 @@ body {
   font-size: 14px;
   line-height: 1.15;
   text-decoration: none;
+  letter-spacing: 0.02em;
 }
 
 .auth-nav .email:hover,
@@ -70,6 +73,7 @@ body {
   line-height: 1.36;
   text-align: center;
   text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 
 .primary-btn {
@@ -80,6 +84,8 @@ body {
   line-height: 1.88;
   text-align: center;
   text-decoration: none;
+  align-items: center;
+  letter-spacing: 0.06em;
 }
 
 /*Advantages*/
@@ -89,6 +95,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 .adv-text {
@@ -96,6 +103,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 /*What We Do*/
@@ -105,6 +113,7 @@ body {
   font-size: 36px;
   line-height: 2.63;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /*Our Team*/
@@ -118,6 +127,7 @@ body {
   font-size: 36px;
   line-height: 2.63;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .ourteam-lead {
@@ -125,6 +135,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .ourteam-position {
@@ -132,6 +143,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 /*Footer*/
@@ -148,8 +160,16 @@ body {
 .tel-address {
   color: var(--hero-color);
   font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.email-address,
+.tel-address {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /*Portfolio buttons*/
@@ -161,6 +181,7 @@ body {
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /*Portfolio main*/
@@ -170,6 +191,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .portf-text {
@@ -177,4 +199,5 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
 }
